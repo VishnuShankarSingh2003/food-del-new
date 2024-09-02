@@ -1,0 +1,40 @@
+/* .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo{
+    width: max(10%,80px);
+}
+.navbar .profile{
+    width: 40px;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background-color: #f8f9fa; /* Optional: Add a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  .navbar .logo {
+    width: max(10%, 80px);
+  }
+  
+  .navbar .profile {
+    width: 40px;
+    border-radius: 50%; /* Optional: Make the profile image round */
+  }
+  
+  .navbar p {
+    font-size: 1.2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Change the color of the text */
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add padding for better spacing */
+    text-align: center; /* Center the text vertically */
+  }
+  
